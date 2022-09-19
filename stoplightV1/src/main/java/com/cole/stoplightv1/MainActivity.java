@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        loadComponents();
+
         stopLight = new StopLight(StopLight.State.GO);
     }
 
