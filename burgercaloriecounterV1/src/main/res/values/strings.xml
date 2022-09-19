@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Burger Calorie Counter V1</string>
+    <string name="patty_one">Beef Patty</string>
+    <string name="patty_two">Lamb Patty</string>
+    <string name="patty_three">Ostrich Patty</string>
+    <string name="extra_option">Prociutto</string>
+    <string name="cheese_one">Asiago Cheese</string>
+    <string name="cheese_two">Creme Fraich</string>
+    <string name="sauce">Caviar sauce up to one teaspoon</string>
+    <string name="calories">Calories</string>
+    <string name="action_settings">Settings</string>
+</resources>

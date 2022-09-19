@@ -13,5 +13,11 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "ITC362"
+include ':tipCalculatorV0'
 include ':tipCalculatorV1'
+include ':tipCalculatorV2'
+include ':tipCalculatorV3'
+include ':tipCalculatorV4'
 include ':stoplightV1'
+include ':burgercaloriecounterV1'
+include ':stoplightv1'

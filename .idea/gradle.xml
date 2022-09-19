@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -9,8 +10,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/burgercaloriecounterV1" />
             <option value="$PROJECT_DIR$/stoplightV1" />
+            <option value="$PROJECT_DIR$/stoplightv1" />
+            <option value="$PROJECT_DIR$/tipCalculatorV0" />
             <option value="$PROJECT_DIR$/tipCalculatorV1" />
+            <option value="$PROJECT_DIR$/tipCalculatorV2" />
+            <option value="$PROJECT_DIR$/tipCalculatorV3" />
+            <option value="$PROJECT_DIR$/tipCalculatorV4" />
           </set>
         </option>
       </GradleProjectSettings>

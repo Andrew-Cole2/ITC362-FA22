@@ -3,7 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/git/ITC362/burgercaloriecounterV1/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/git/ITC362/burgercaloriecounterV1/src/main/res/menu/menus.xml" value="0.3098958333333333" />
+        <entry key="..\:/git/ITC362/stoplightV1/src/main/res/layout/activity_main.xml" value="0.2994791666666667" />
+        <entry key="..\:/git/ITC362/stoplightV1/src/main/res/layout/activity_main2.xml" value="0.30978260869565216" />
+        <entry key="..\:/git/ITC362/stoplightV1/src/main/res/menu/menus.xml" value="0.3098958333333333" />
+        <entry key="..\:/git/ITC362/stoplightv1/src/main/res/layout/activity_main.xml" value="0.24166666666666667" />
+        <entry key="..\:/git/ITC362/tipCalculatorV0/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/git/ITC362/tipCalculatorV1/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/git/ITC362/tipCalculatorV1/src/main/res/layout/activity_stop_light.xml" value="0.358695652173913" />
+        <entry key="..\:/git/ITC362/tipCalculatorV2/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/git/ITC362/tipCalculatorV3/src/main/res/layout/activity_main.xml" value="0.28802083333333334" />
+        <entry key="..\:/git/ITC362/tipCalculatorV4/src/main/res/layout/activity_main.xml" value="0.128419452887538" />
       </map>
     </option>
   </component>

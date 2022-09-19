@@ -1,0 +1,145 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <!-- Top Bun Image -->
+    <ImageView
+        android:id="@+id/img_top_bun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/topbun" />
+
+    <!-- Prosciutto Option -->
+    <RadioGroup
+        android:id="@+id/rbg_patties"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_top_bun">
+        <!-- Beef Option -->
+
+        <!-- Lamb Option -->
+        <RadioButton
+            android:id="@+id/rb_patty_one"
+            android:layout_width="125dp"
+            android:layout_height="30dp"
+            android:checked="true"
+            android:text="@string/patty_one"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_top_bun" />
+
+        <RadioButton
+            android:id="@+id/rb_patty_two"
+            android:layout_width="125dp"
+            android:layout_height="30dp"
+            android:text="@string/patty_two"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rb_patty_one" />
+
+        <!-- Ostrich Option -->
+        <RadioButton
+            android:id="@+id/rb_patty_three"
+            android:layout_width="125dp"
+            android:layout_height="30dp"
+            android:text="@string/patty_three"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rb_patty_two" />
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/cb_extra_option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/extra_option"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rbg_patties" />
+
+
+    <RadioGroup
+        android:id="@+id/rbg_cheese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cb_extra_option">
+
+        <RadioButton
+            android:id="@+id/rb_cheese_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/cheese_one"
+            app:layout_constraintEnd_toStartOf="@+id/rb_cheese_two"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cb_extra_option" />
+
+
+        <RadioButton
+            android:id="@+id/rb_cheese_two"
+            style="@android:style/Widget.CompoundButton.RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cheese_two"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/rb_cheese_one"
+            app:layout_constraintTop_toBottomOf="@+id/cb_extra_option" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_sauce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/sauce"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rbg_cheese" />
+
+    <SeekBar
+        android:id="@+id/sb_sauce"
+        style="@android:style/Widget.SeekBar"
+        android:layout_width="400dp"
+        android:layout_height="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_sauce" />
+
+    <ImageView
+        android:id="@+id/img_bottom_bun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sb_sauce"
+        app:srcCompat="@drawable/bottombun" />
+
+    <TextView
+        android:id="@+id/tv_calories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="@string/calories"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        app:layout_constraintBottom_toBottomOf="@+id/img_bottom_bun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
