@@ -10,14 +10,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/burgercaloriecounterV1" />
-            <option value="$PROJECT_DIR$/stoplightV1" />
-            <option value="$PROJECT_DIR$/stoplightv1" />
-            <option value="$PROJECT_DIR$/tipCalculatorV0" />
-            <option value="$PROJECT_DIR$/tipCalculatorV1" />
-            <option value="$PROJECT_DIR$/tipCalculatorV2" />
-            <option value="$PROJECT_DIR$/tipCalculatorV3" />
-            <option value="$PROJECT_DIR$/tipCalculatorV4" />
+            <option value="$PROJECT_DIR$/layoutV1" />
+            <option value="$PROJECT_DIR$/ticTacToeV0" />
+            <option value="$PROJECT_DIR$/ticTacToeV1" />
+            <option value="$PROJECT_DIR$/ticTacToeV2" />
+            <option value="$PROJECT_DIR$/ticTacToeV3" />
+            <option value="$PROJECT_DIR$/ticTacToeV4" />
           </set>
         </option>
       </GradleProjectSettings>

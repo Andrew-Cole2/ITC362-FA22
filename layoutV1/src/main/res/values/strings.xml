@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HW3 Ex 2</string>
+    <string name="button1_text">Plum</string>
+    <string name="button1_desc">Plum is a deep purple color. It is used in weddings. </string>
+    <string name="button2_text">Blue</string>
+    <string name="button2_desc">Blue is the color of peace and trust.</string>
+    <string name="button3_text">Gold</string>
+    <string name="button3_desc">Gold is associated with sunshine and knowledge.</string>
+
+</resources>
