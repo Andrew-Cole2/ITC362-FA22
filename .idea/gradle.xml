@@ -10,12 +10,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/layoutV1" />
-            <option value="$PROJECT_DIR$/ticTacToeV0" />
-            <option value="$PROJECT_DIR$/ticTacToeV1" />
-            <option value="$PROJECT_DIR$/ticTacToeV2" />
-            <option value="$PROJECT_DIR$/ticTacToeV3" />
-            <option value="$PROJECT_DIR$/ticTacToeV4" />
+            <option value="$PROJECT_DIR$/autopurchase" />
+            <option value="$PROJECT_DIR$/intentexercise" />
+            <option value="$PROJECT_DIR$/mortgageCalculatorV4" />
           </set>
         </option>
       </GradleProjectSettings>

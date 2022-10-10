@@ -3,9 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/git/ITC362/autopurchase/src/main/res/layout/loansummary_layout.xml" value="0.1" />
+        <entry key="..\:/git/ITC362/autopurchase/src/main/res/layout/purchase_layout.xml" value="0.1" />
+        <entry key="..\:/git/ITC362/autopurchase/src/main/res/menu/my.xml" value="0.26979166666666665" />
         <entry key="..\:/git/ITC362/burgercaloriecounterV1/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/git/ITC362/burgercaloriecounterV1/src/main/res/menu/menus.xml" value="0.3098958333333333" />
+        <entry key="..\:/git/ITC362/hw4ex3/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/git/ITC362/hw4ex3/src/main/res/layout/activity_return.xml" value="0.309375" />
+        <entry key="..\:/git/ITC362/hw4ex3/src/main/res/layout/return_activity.xml" value="0.309375" />
+        <entry key="..\:/git/ITC362/intentexercise/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/git/ITC362/intentexercise/src/main/res/layout/activity_return.xml" value="0.309375" />
         <entry key="..\:/git/ITC362/layoutV1/src/main/res/layout/activity_main.xml" value="0.254981884057971" />
+        <entry key="..\:/git/ITC362/mortgageCalculatorV0/src/main/res/drawable/ic_launcher_background.xml" value="0.154" />
+        <entry key="..\:/git/ITC362/mortgageCalculatorV0/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/git/ITC362/mortgageCalculatorV0/src/main/res/layout/activity_modify_data.xml" value="0.36666666666666664" />
+        <entry key="..\:/git/ITC362/mortgageCalculatorV2/src/main/res/layout/activity_main.xml" value="0.275" />
+        <entry key="..\:/git/ITC362/mortgageCalculatorV2/src/main/res/layout/activity_modify_data.xml" value="0.275" />
+        <entry key="..\:/git/ITC362/mortgageCalculatorV4/src/main/res/layout/activity_main.xml" value="0.309375" />
+        <entry key="..\:/git/ITC362/mortgageCalculatorV4/src/main/res/layout/activity_modify_data.xml" value="0.309375" />
         <entry key="..\:/git/ITC362/stoplightV1/src/main/res/layout/activity_main.xml" value="0.2994791666666667" />
         <entry key="..\:/git/ITC362/stoplightV1/src/main/res/layout/activity_main2.xml" value="0.30978260869565216" />
         <entry key="..\:/git/ITC362/stoplightV1/src/main/res/menu/menus.xml" value="0.3098958333333333" />
