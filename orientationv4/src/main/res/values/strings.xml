@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OrientationV4</string>
+    <string name="portrait">PORTRAIT VIEW</string>
+    <string name="landscape">LANDSCAPE VIEW</string>
+    <string name="view1">GO TO VIEW 1</string>
+    <string name="view2">GO TO VIEW 2</string>
+    <string name="view3">GO TO VIEW 3</string>
+</resources>

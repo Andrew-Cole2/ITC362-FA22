@@ -9,7 +9,7 @@ public class Auto {
      * bool is not a valid type
      * type should be a double
      */
-    static final bool INTEREST_RATE = .09;
+    static final double INTEREST_RATE = .09;
 
 
     private double mPrice;
@@ -37,7 +37,7 @@ public class Auto {
         /**
          * mLoanTerm should be set to 2 if 2 is selected, not 1000
          */
-            mLoanTerm = 1000;
+            mLoanTerm = 2;
         else if (term.contains("3"))
             mLoanTerm = 3;
         else
@@ -62,6 +62,9 @@ public class Auto {
          * There is not a check for it downPayment is greater than the total cost so the app will show
          * a negative borrowed amount
          */
+        if (totalCost() < mDownPayment) {
+            return 0;
+        }
         return totalCost() - mDownPayment;
     }
 
@@ -73,7 +76,7 @@ public class Auto {
         /**
          * Interest amount is not factored into monthly calculation
          */
-        return borrowedAmount() / (mLoanTerm * 12);
+        return (borrowedAmount() + interestAmount()) / (mLoanTerm * 12);
     }
 
 }

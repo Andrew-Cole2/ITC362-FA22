@@ -20,6 +20,9 @@ public class PurchaseActivity extends Activity {
     String monthlyPayment;
 
     // LAYOUT INPUT REFERENCES
+    EditText carPriceET;
+    EditText downPayET;
+    RadioGroup loanTermRG;
 
 
     @Override
@@ -47,22 +50,18 @@ public class PurchaseActivity extends Activity {
          * carPriceET not defined in function or class
          * Should be using Double.valueOf instead of Integer.valueOf and casting to a double
          */
-        mAuto.setPrice ((double) Integer.valueOf(carPriceET.getText()
-                .toString()));
+        mAuto.setPrice(Double.valueOf(carPriceET.getText().toString()));
 
         //TASK 2: SET THE DOWN PAYMENT
         /**
          * downPayET not defined in function or class
          * Should be using Double.valueOf instead of Integer.valueOf and casting to a double
          */
-        mAuto.setDownPayment((double)
-                Integer.valueOf(downPayET.getText()
-                        .toString()));
+        mAuto.setDownPayment(Double.valueOf(downPayET.getText().toString()));
 
         //TASK 3 SET THE LOAN TERM
         /**
          * loanTermRG not defined in function or class
-         * Should be using Double.valueOf instead of Integer.valueOf and casting to a double
          */
         Integer radioId = loanTermRG.getCheckedRadioButtonId();
         RadioButton term = (RadioButton) findViewById(radioId);
