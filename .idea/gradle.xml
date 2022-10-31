@@ -10,13 +10,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/orientationv0" />
-            <option value="$PROJECT_DIR$/orientationv1" />
-            <option value="$PROJECT_DIR$/orientationv2" />
-            <option value="$PROJECT_DIR$/orientationv3" />
-            <option value="$PROJECT_DIR$/orientationv4" />
-            <option value="$PROJECT_DIR$/ticTacToeV1_0" />
-            <option value="$PROJECT_DIR$/tipCalculatorV1_0" />
+            <option value="$PROJECT_DIR$/hangmanv0" />
+            <option value="$PROJECT_DIR$/hangmanv1" />
+            <option value="$PROJECT_DIR$/hangmanv2" />
+            <option value="$PROJECT_DIR$/hangmanv3" />
+            <option value="$PROJECT_DIR$/hangmanv4" />
+            <option value="$PROJECT_DIR$/hangmanv5" />
+            <option value="$PROJECT_DIR$/stoplightv1" />
+            <option value="$PROJECT_DIR$/stoplightv2" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Stop Light V1</string>
-    <string name="light_msg">Go</string>
+    <string name="app_name">StoplightV1</string>
+    <string name="click">Click Me</string>
 </resources>

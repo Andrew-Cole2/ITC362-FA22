@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Stop Light V0</string>
+    <string name="light_msg">Go</string>
+</resources>
