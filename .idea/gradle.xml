@@ -10,14 +10,15 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/candystorev0" />
-            <option value="$PROJECT_DIR$/candystorev1" />
-            <option value="$PROJECT_DIR$/candystorev2" />
-            <option value="$PROJECT_DIR$/candystorev3" />
-            <option value="$PROJECT_DIR$/candystorev4" />
-            <option value="$PROJECT_DIR$/friendmanagerv0" />
-            <option value="$PROJECT_DIR$/todoappv0" />
-            <option value="$PROJECT_DIR$/todoappv1" />
+            <option value="$PROJECT_DIR$/duckhuntv0" />
+            <option value="$PROJECT_DIR$/duckhuntv1" />
+            <option value="$PROJECT_DIR$/duckhuntv2" />
+            <option value="$PROJECT_DIR$/duckhuntv3" />
+            <option value="$PROJECT_DIR$/puzzlev0" />
+            <option value="$PROJECT_DIR$/puzzlev1" />
+            <option value="$PROJECT_DIR$/puzzlev2" />
+            <option value="$PROJECT_DIR$/puzzlev3" />
+            <option value="$PROJECT_DIR$/puzzlev4" />
           </set>
         </option>
       </GradleProjectSettings>
